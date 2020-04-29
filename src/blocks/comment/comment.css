@@ -1,16 +1,13 @@
 @import url('__image/comment__image.css');
 @import url('__quote/comment__quote.css');
 @import url('__author/comment__author.css');
-
-
-
 .comment {
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
-
-
 
 @media screen and (max-width: 768px) {
     .comment {
