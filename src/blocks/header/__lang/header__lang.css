@@ -1,0 +1,19 @@
+@import url('_checked/header__lang_checked_false.css');
+
+
+.header__lang {
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 23px;
+text-align: right;
+color: #fff;
+}
+
+
+@media screen and (max-width: 768px) {
+    .header__lang {
+        font-size: 18px;
+        line-height: 17px;
+    }
+}

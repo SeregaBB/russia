@@ -1,0 +1,38 @@
+@import url('__title/cover__title.css');
+@import url('__subtitle/cover__subtitle.css');
+
+
+.cover {
+    position: relative;
+    max-width: 1184px;
+    min-height: 594px;
+    background-color: #2A2C2F;
+    background-image: url('../../images/cover.jpg');
+    background-size: cover;
+    margin: 0 auto 82px;
+    width: 100%;
+
+}
+
+.cover:hover .cover-bg{
+    opacity: 0.8;
+}
+
+
+@media screen and (width: 768px) {
+    .cover {
+        min-height: 500px;
+    }
+}
+
+@media screen and (max-width: 375px){ 
+    .cover {
+        min-height: 272px;
+    }
+}
+
+@media screen and (max-width: 320px){ 
+    .cover {
+        min-height: 216px;
+    }
+}

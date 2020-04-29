@@ -1,0 +1,15 @@
+
+.video__container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 767px){
+    .video__container {
+        
+        flex-direction: column;
+    }
+}

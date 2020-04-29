@@ -1,0 +1,14 @@
+
+
+.comment__image {
+    width: 97px;
+    border-radius: 50%;
+    margin-bottom: 42px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .comment__image{
+        order: 0;
+    }
+}

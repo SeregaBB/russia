@@ -1,0 +1,17 @@
+
+.place__paragraphs {
+        max-width: 484px;
+        margin: 0;
+        align-self: start;
+}
+
+
+
+@media screen and (max-width: 651px) {
+        .place__paragraphs {
+                padding-left: 20px;
+                width: calc(100% - 40px);
+                max-width: none;
+                
+        }
+}

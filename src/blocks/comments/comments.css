@@ -1,0 +1,32 @@
+@import url('__container/comments__container.css');
+.comments  {
+    max-width: 1184px;
+    margin: 0 auto 102px;
+    width: 90%;
+}
+
+
+@media screen and (width: 1024px) {
+    .comments {
+        width: 928px;
+        
+    }
+}
+
+@media screen and (width: 768px) {
+    .comments {
+       width: 660px;
+    }
+}
+
+@media screen and (width: 375px) {
+    .comments {
+        width: 343px;
+    }
+}
+
+@media screen and (width: 350px) { 
+    .comments {
+        width: 288px;
+    }
+}

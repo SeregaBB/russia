@@ -1,0 +1,24 @@
+
+
+
+.comments__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 19px;
+}
+
+
+@media screen and (width: 1024px) {
+    .comments__container {
+    grid-template-columns: repeat(auto-fit,296px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .comments__container {
+        max-width: 382px;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
+}
